@@ -19,9 +19,6 @@ function animate(){
         next.classList.remove('animate');
     },500);
     current.innerHTML=next.innerHTML;
-    if(current.innerHTML==("8")){
-        
-    }
     next.innerHTML= current.innerHTML*1+1;
     
     
